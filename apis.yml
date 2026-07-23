@@ -1,8 +1,30 @@
 aid: aer-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aer-therapeutics.png
 name: Aer Therapeutics
-description: Aer Therapeutics is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Aer Therapeutics is a clinical-stage biopharmaceutical company based in the
+  Research Triangle Park / Raleigh area of North Carolina, developing novel
+  treatments for muco-obstructive lung diseases such as COPD, asthma, cystic
+  fibrosis, and non-CF bronchiectasis. A spinout from Dr. John Fahy's laboratory
+  at the University of California, San Francisco (UCSF), the company's lead
+  candidate, AER-01 (fexlamose), is an inhaled small-molecule mucolytic designed
+  to break down and liquefy the dense mucus plugs that obstruct airflow in the
+  lungs. Aer closed a $36 million Series A backed by life-science investors
+  including Canaan, OrbiMed, Hatteras Venture Partners, and Pappas Capital. Aer
+  Therapeutics is a private, research-focused therapeutics company and does not
+  publish a public developer platform, API, or SDKs; this profile captures its
+  corporate identity within the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/aer-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,9 +37,34 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biopharmaceutical
+- Biotechnology
+- Therapeutics
+- Life Sciences
+- Respiratory
+- Pharmaceuticals
+- Clinical Stage
 apis: []
+common:
+- type: DomainSecurity
+  url: security/aer-therapeutics-domain-security.yml
+- type: Website
+  url: https://aertherapeutics.com
+- type: TermsOfService
+  url: https://aertherapeutics.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://aertherapeutics.com/privacy-policy/
+- type: Support
+  url: https://aertherapeutics.com/contact-us/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aer-therapeutics-inc.
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
